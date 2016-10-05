@@ -82,7 +82,8 @@ static const CGFloat HeartViewSize = 110.0;
     if (!_titleLabel) {
         _titleLabel = [OCKLabel new];
         _titleLabel.textStyle = UIFontTextStyleHeadline;
-        _titleLabel.text = OCKLocalizedString(@"CARE_CARD_HEADER_TITLE", nil);
+        //_titleLabel.text = OCKLocalizedString(@"CARE_CARD_HEADER_TITLE", nil);
+        _titleLabel.text = @"Daily Goal Progress";
         _titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
         _titleLabel.numberOfLines = 0;
         [self addSubview:_titleLabel];

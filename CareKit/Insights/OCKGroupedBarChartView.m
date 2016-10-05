@@ -714,7 +714,7 @@ static const CGFloat MarginBetweenBarAndLabel = 6.0;
     [super layoutSubviews];
     if (_shouldInvalidateLegendViewIntrinsicContentSize) {
         _shouldInvalidateLegendViewIntrinsicContentSize = NO;
-        [_legendsView invalidateIntrinsicContentSize];
+        //[_legendsView invalidateIntrinsicContentSize];
     }
 }
 

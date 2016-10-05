@@ -59,7 +59,7 @@
 - (void)updateFont {
     if (_textStyle) {
         self.font = [UIFont preferredFontForTextStyle:_textStyle];
-        [self invalidateIntrinsicContentSize];
+        //[self invalidateIntrinsicContentSize];
     }
 }
 
